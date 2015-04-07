@@ -1,0 +1,15 @@
+<Alloy>
+    <Collection src="items"/>
+    <NavigationWindow id="navGroupWin">
+        <Window class="container" title="My Items">
+            <TableView dataCollection="items" id="itemTable">
+                <TableViewRow title="{label}" author="{details}" onClick="showItem"></TableViewRow>
+            </TableView>
+            <Toolbar bottom="0">
+                <Items>
+                    <Button id="add" title="Add item" onClick="addItem"/>
+                </Items>
+            </Toolbar>
+        </Window>
+    </NavigationWindow>>
+</Alloy>

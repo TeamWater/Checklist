@@ -1,0 +1,16 @@
+".container": {
+  backgroundColor: 'white'
+},
+
+"#labelInput": {
+    font: {
+        fontSize: '30'
+    },
+    left: '10'
+},
+"#detailsInput": {
+    font: {
+        fontSize: '20'
+    },
+    left: '10'
+},

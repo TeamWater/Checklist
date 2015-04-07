@@ -1,0 +1,8 @@
+<Alloy>
+    <Window class="container">
+        <View layout="vertical">
+            <Label id="labelLabel"></Label>
+            <Label id="detailsLabel"></Label>
+        </View>
+    </Window>
+</Alloy>

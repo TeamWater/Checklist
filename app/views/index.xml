@@ -1,0 +1,16 @@
+<Alloy>
+    <Collection src="items"/>
+    <Window class="container">
+        <!-- Add TableView and  TableViewRow -->
+        <TableView dataCollection="items">
+            <TableViewRow title="{label}" author="{details}" onClick="showItem"></TableViewRow>
+        </TableView>
+        <!-- Android menu for 'Add book' button. -->
+        <Menu id="menu" platform="android">
+            <MenuItem
+            title="Add item"
+            onClick="addItem"
+            showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" />
+        </Menu>
+    </Window>
+</Alloy>

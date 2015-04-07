@@ -1,0 +1,12 @@
+<Alloy>
+	<View class="container">
+	</View>
+</Alloy><Alloy>
+    <Window class="container">
+        <View layout="vertical">
+            <TextField id="labelInput" hintText="Label..."></TextField>
+            <TextField id="detailsInput" hintText="Details..."></TextField>
+            <Button id="insertItemButton" onClick="addItemToCollection">Add</Button>
+        </View>
+    </Window>
+</Alloy>
