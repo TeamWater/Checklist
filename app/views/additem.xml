@@ -1,7 +1,4 @@
 <Alloy>
-	<View class="container">
-	</View>
-</Alloy><Alloy>
     <Window class="container">
         <View layout="vertical">
             <TextField id="labelInput" hintText="Label..."></TextField>
